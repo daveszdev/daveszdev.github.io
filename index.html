@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@700&family=Overpass:wght@200;300&display=swap" rel="stylesheet">
+    <title>David's Portfolio Page</title>
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand order-1 mr-0" href="#" target="_blank">Portfolio of Dávid Máté</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR ENDS -->
+
+    <div class="container pt-4">
+      <!-- ABOUT SECTION -->
+      <div class="container"> <!-- CONTAINER DIV STARTS -->
+        <div id="about" class="row h-50 align-items-center align-content-center">
+          <div class="col-lg-6 order-lg-1">
+            <img class="img-fluid rounded d-sm-block pt-4" src="main-img.jpg" alt="Portland">
+          </div>
+          <div class="col-lg-6">
+            <h4 class="display-2 text-uppercase fw-bold mb-3 m16">Hello!</h4>
+            <p class="lead">My name is David, I'm a Front-End Web Developer and a student at Treehouse. Feel free to explore my Portfolio Page!</p>
+            <a href="#projects" class="btn btn-success">Check out my Treehouse projects!</a>
+          </div>
+        </div>
+      </div>
+      <!-- ABOUT SECTION ENDS -->
+      <!-- SKILLS -->
+      <h1 id="skills" class="display-6 text-center my-5">What I learned at Treehouse?</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-3 border-0">
+            <img src="html.png" id="icon" class="card-img-top" alt="HTML Icon">
+            <div class="card-body">
+              <h5 class="card-title text-center">HTML</h5>
+              <p class="card-text text-center">I like working with HTML, especially since I can use Bootstrap!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-3 border-0">
+            <img src="css.png" id="icon" class="card-img-top" alt="CSS Icon">
+            <div class="card-body">
+              <h5 class="card-title text-center">CSS</h5>
+              <p class="card-text text-center">Bringing projects to life with CSS is simply fun!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-3 border-0">
+            <img src="js-format.png" id="icon" class="card-img-top" alt="JavaScript Icon">
+            <div class="card-body">
+              <h5 class="card-title text-center">JavaScript</h5>
+              <p class="card-text text-center">I learned a lot about JavaScript but I need more practice.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SKILLS ENDS -->
+      <!-- PORTFOLIO STARTS -->
+
+      <h1 id="projects" class="display-6 text-center my-5">My Treehouse Projects</h1>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card mb-3">
+            <img id="img1" src="project-1.png" class="card-img-top" alt="Vivianne">
+            <div class="card-body">
+              <h5 class="card-title">Registration Form</h5>
+              <p class="card-text">This project challenged me to build a responsive, mobile-first registration form using a variety of HTML form elements.</p>
+              <a href="projects/Registration_Form/index.html" target="_blank" class="btn btn-success">Check it out!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card mb-3">
+            <img id="img2" src="project-2.png" class="card-img-top" alt="Nodestradamus">
+            <div class="card-body">
+              <h5 class="card-title">Style Guide</h5>
+              <p class="card-text">In this project I used HTML, CSS and SASS to make a style guide which I can use in my future projects.</p>
+              <a href="projects/techdegree_project_4/index.html"  target="_blank" class="btn btn-success">Check it out!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card mb-3">
+            <img id="img3" src="project-3.png" class="card-img-top" alt="Vivianne">
+            <div class="card-body">
+              <h5 class="card-title">Employee Directory</h5>
+              <p class="card-text">This directory is capturing random people from a third-party API. Click on the cards for a pop-up window.</p>
+              <a href="projects/Employee_Directory/index.html" target="_blank" class="btn btn-success">Check it out!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card mb-3">
+            <img id="img4" src="project-4.png" class="card-img-top" alt="Nodestradamus">
+            <div class="card-body">
+              <h5 class="card-title">Game Show App</h5>
+              <p class="card-text">A fun word guessing game made with JavaScript. Can you guess the tounge-twisters?</p>
+              <a href="projects/Game_Show_App/index.html" target="_blank" class="btn btn-success">Check it out!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
+      <!-- PORTFOLIO ENDS -->
+
+    </div> <!-- CONTAINER DIV ENDS -->
+
+    <!-- CONTACT FORM -->
+    <div class="jumbotron jumbotron-fluid text-sm-center p-5 text-white">
+      <h1 id="contact">Contact Me</h1>
+      <p class="text-center">If you have any questions drop me an <a id="email-link" href="mailto: example@example.com">email</a> or use the form.</p>
+      <form>
+        <div class="form-group col-md-6 mx-auto">
+          <label for="exampleFormControlInput1" class="mb-3 ">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+        </div>
+        <div class="form-group col-md-6 mx-auto">
+          <label for="exampleFormControlTextarea1" class="my-3">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message" style="height: 150px;"></textarea>
+        </div>
+      </form>
+      <button href="#" class="btn btn-success my-3">Send</button>
+    </div>
+    <!-- CONTACT FORM ENDS -->
+    <!-- FOOTER -->
+    <footer class="text-center">
+      <div class="container p-4">
+        <!-- SOCIAL MEDIA -->
+        <section class="mb-4">
+          <!-- FACEBOOK -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <!-- INSTAGRAM -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <!-- GITHUB -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+            <i class="fa fa-github"></i>
+          </a>
+        </section>
+        <!-- SOCIAL MEDIA ENDS -->
+        <!-- ATTRIBUTES -->
+        <section class="mb-4">
+          <div>Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+          <a href='https://www.freepik.com/vectors/work'>Work vector created by stories - www.freepik.com</a>
+        </section>
+        <!-- ATTRIBUTES ENDS -->
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="text-center p-3" style="background-color: #5AE4A9;">
+        <p>© 2020 Copyright: Dávid Máté</p>
+      </div>
+      <!-- COPYRIGHT ENDS -->
+    </footer>
+
+    <!-- FOOTER ENDS -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"> </script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

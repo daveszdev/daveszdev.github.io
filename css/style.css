@@ -1,0 +1,118 @@
+nav {
+  background-color: #5AE4A9;
+}
+
+h1, h5, .nav-link {
+  font-family: 'Chivo', sans-serif;
+}
+
+p {
+  font-family: 'Overpass', sans-serif;
+}
+
+a {
+  color: #5AE4A9;
+}
+
+#email-link {
+  color: blue;
+}
+
+.btn {
+  background-color: #373737;
+  border: none;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 300;
+}
+
+.btn:hover {
+  background-color: #D5F7E7;
+  color: #373737;
+}
+
+#icon {
+  width: 20%;
+  margin: 0 auto;
+}
+
+body > div.jumbotron.jumbotron-fluid.text-sm-center.p-5.text-white {
+  background-color: #5AE4A9;
+}
+
+
+#img1, #img2, #img3, #img4 {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#img1:hover, #img2:hover, #img3:hover, #img4:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  padding-top: 180px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 880px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
